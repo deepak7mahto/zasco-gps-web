@@ -23,7 +23,7 @@ export const PageHeader: React.FC<PageHeaderProps> = ({
   actions,
 }) => {
   return (
-    <div className="relative bg-slate-900 text-white overflow-hidden py-14 lg:py-20 border-b border-slate-800">
+    <div className="relative bg-slate-900 text-white overflow-hidden py-10 lg:py-14 border-b border-slate-800">
       {/* Background Decorative Pattern */}
       <div 
         className="absolute inset-0 opacity-10 bg-repeat pointer-events-none"
