@@ -17,7 +17,8 @@ import {
   Truck,
   Layers,
   Store,
-  ExternalLink
+  ExternalLink,
+  ArrowRight
 } from 'lucide-react';
 import { ZASCO_CONTACT, getWhatsAppUrl } from '@/lib/crm';
 import { SOLUTIONS_NAV, BUSINESS_MODEL_NAV } from '@/data/navigation';
@@ -118,8 +119,8 @@ export const Navbar: React.FC = () => {
           <nav className="hidden lg:flex items-center space-x-0.5 xl:space-x-1">
             <Link 
               to="/" 
-              className={`px-2.5 py-1.5 text-[13px] xl:text-sm font-medium rounded-lg transition-colors whitespace-nowrap ${
-                location.pathname === '/' ? 'text-emerald-700 font-semibold bg-emerald-50' : 'text-slate-700 hover:text-emerald-600 hover:bg-slate-50'
+              className={`px-3 py-2 text-[13px] xl:text-sm font-medium rounded-lg transition-colors whitespace-nowrap ${
+                location.pathname === '/' ? 'text-emerald-600 font-semibold' : 'text-slate-700 hover:text-emerald-600 hover:bg-slate-50'
               }`}
             >
               Home
@@ -132,9 +133,9 @@ export const Navbar: React.FC = () => {
               onMouseLeave={() => setSolutionsOpen(false)}
             >
               <button 
-                className={`flex items-center space-x-1 px-2.5 py-1.5 text-[13px] xl:text-sm font-medium rounded-lg transition-colors whitespace-nowrap ${
+                className={`flex items-center space-x-1 px-3 py-2 text-[13px] xl:text-sm font-medium rounded-lg transition-colors whitespace-nowrap ${
                   location.pathname.startsWith('/solutions')
-                    ? 'text-emerald-700 font-semibold bg-emerald-50' 
+                    ? 'text-emerald-600 font-semibold' 
                     : 'text-slate-700 hover:text-emerald-600 hover:bg-slate-50'
                 }`}
               >
@@ -143,12 +144,21 @@ export const Navbar: React.FC = () => {
               </button>
 
               {solutionsOpen && (
-                <div className="absolute top-full -left-10 w-[640px] bg-white border border-slate-200 shadow-2xl rounded-2xl p-4 z-50 animate-in fade-in slide-in-from-top-2 duration-150">
-                  <div className="flex items-center justify-between px-3 pb-2 border-b border-slate-100 mb-2">
-                    <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">
-                      Enterprise Telematics Verticals
-                    </span>
-                    <span className="text-xs text-emerald-600 font-semibold">Custom Sensors & Protocols</span>
+                <div className="absolute top-full -left-12 w-[680px] bg-white border border-slate-200 shadow-2xl rounded-2xl p-4 z-50 animate-in fade-in slide-in-from-top-2 duration-150">
+                  <div className="flex items-center justify-between px-3 pb-3 border-b border-slate-100 mb-2">
+                    <div>
+                      <span className="text-[11px] font-bold text-slate-400 uppercase tracking-wider block">
+                        Enterprise Telematics Verticals
+                      </span>
+                      <span className="text-xs text-slate-500">Industry-specific telematics and sensor suites</span>
+                    </div>
+                    <Link 
+                      to="/solutions" 
+                      className="text-xs font-semibold text-emerald-600 hover:text-emerald-700 flex items-center space-x-1"
+                    >
+                      <span>All Solutions</span>
+                      <ArrowRight className="w-3.5 h-3.5" />
+                    </Link>
                   </div>
                   <div className="grid grid-cols-2 gap-2">
                     {SOLUTIONS_NAV.map((item) => (
@@ -157,14 +167,14 @@ export const Navbar: React.FC = () => {
                         to={item.href}
                         className="flex items-start space-x-3 p-2.5 rounded-xl hover:bg-slate-50 transition group"
                       >
-                        <div className="p-2.5 bg-slate-100 rounded-lg group-hover:bg-emerald-50 transition shrink-0">
+                        <div className="p-2.5 bg-slate-100 rounded-lg group-hover:bg-emerald-50 group-hover:text-emerald-600 text-slate-600 transition shrink-0">
                           {getSolutionIcon(item.iconName)}
                         </div>
-                        <div>
-                          <div className="text-sm font-bold text-slate-800 group-hover:text-emerald-600 flex items-center space-x-1.5">
-                            <span>{item.label}</span>
+                        <div className="min-w-0">
+                          <div className="text-sm font-semibold text-slate-800 group-hover:text-emerald-600 flex items-center space-x-1.5">
+                            <span className="truncate">{item.label}</span>
                             {item.badge && (
-                              <span className="text-[10px] font-bold bg-amber-100 text-amber-800 px-1.5 py-0.2 rounded">
+                              <span className="text-[10px] font-semibold bg-emerald-50 text-emerald-700 border border-emerald-200/60 px-1.5 py-0.2 rounded-md shrink-0">
                                 {item.badge}
                               </span>
                             )}
@@ -173,6 +183,22 @@ export const Navbar: React.FC = () => {
                         </div>
                       </Link>
                     ))}
+                    {/* 8th Slot: Complete 4x2 Grid Symmetry */}
+                    <Link
+                      to="/solutions"
+                      className="flex items-start space-x-3 p-2.5 rounded-xl bg-emerald-50/40 hover:bg-emerald-50 border border-emerald-200/60 hover:border-emerald-300 transition group"
+                    >
+                      <div className="p-2.5 bg-emerald-100 rounded-lg text-emerald-700 group-hover:bg-emerald-600 group-hover:text-white transition shrink-0">
+                        <Layers className="w-5 h-5" />
+                      </div>
+                      <div className="min-w-0">
+                        <div className="text-sm font-bold text-slate-900 group-hover:text-emerald-700 flex items-center space-x-1.5">
+                          <span>Browse All 7 Verticals</span>
+                          <ArrowRight className="w-3.5 h-3.5 text-emerald-600 group-hover:translate-x-0.5 transition-transform" />
+                        </div>
+                        <p className="text-xs text-slate-500 line-clamp-1 mt-0.5">Explore school, fuel, cold chain, and fleet hubs</p>
+                      </div>
+                    </Link>
                   </div>
                 </div>
               )}
@@ -181,12 +207,12 @@ export const Navbar: React.FC = () => {
             {/* Supported Devices */}
             <Link 
               to="/supported-devices" 
-              className={`px-2.5 py-1.5 text-[13px] xl:text-sm font-medium rounded-lg transition-colors flex items-center space-x-1.5 whitespace-nowrap ${
-                location.pathname === '/supported-devices' ? 'text-emerald-700 font-semibold bg-emerald-50' : 'text-slate-700 hover:text-emerald-600 hover:bg-slate-50'
+              className={`px-3 py-2 text-[13px] xl:text-sm font-medium rounded-lg transition-colors flex items-center space-x-1.5 whitespace-nowrap ${
+                location.pathname === '/supported-devices' ? 'text-emerald-600 font-semibold' : 'text-slate-700 hover:text-emerald-600 hover:bg-slate-50'
               }`}
             >
               <span>Supported Devices</span>
-              <span className="text-[10px] font-bold bg-emerald-100 text-emerald-800 px-1.5 py-0.5 rounded-full">
+              <span className="text-[10px] font-semibold bg-emerald-50 text-emerald-700 border border-emerald-200/60 px-1.5 py-0.5 rounded-full">
                 650+
               </span>
             </Link>
@@ -194,8 +220,8 @@ export const Navbar: React.FC = () => {
             {/* Software */}
             <Link 
               to="/software" 
-              className={`px-2.5 py-1.5 text-[13px] xl:text-sm font-medium rounded-lg transition-colors whitespace-nowrap ${
-                location.pathname === '/software' ? 'text-emerald-700 font-semibold bg-emerald-50' : 'text-slate-700 hover:text-emerald-600 hover:bg-slate-50'
+              className={`px-3 py-2 text-[13px] xl:text-sm font-medium rounded-lg transition-colors whitespace-nowrap ${
+                location.pathname === '/software' ? 'text-emerald-600 font-semibold' : 'text-slate-700 hover:text-emerald-600 hover:bg-slate-50'
               }`}
             >
               Software
@@ -208,9 +234,9 @@ export const Navbar: React.FC = () => {
               onMouseLeave={() => setBusinessOpen(false)}
             >
               <button 
-                className={`flex items-center space-x-1 px-2.5 py-1.5 text-[13px] xl:text-sm font-medium rounded-lg transition-colors whitespace-nowrap ${
+                className={`flex items-center space-x-1 px-3 py-2 text-[13px] xl:text-sm font-medium rounded-lg transition-colors whitespace-nowrap ${
                   location.pathname.includes('business') || location.pathname.includes('distribution') || location.pathname.includes('white-label') || location.pathname.includes('franchising')
-                    ? 'text-emerald-700 font-semibold bg-emerald-50' 
+                    ? 'text-emerald-600 font-semibold' 
                     : 'text-slate-700 hover:text-emerald-600 hover:bg-slate-50'
                 }`}
               >
@@ -258,8 +284,8 @@ export const Navbar: React.FC = () => {
             {/* About Us */}
             <Link 
               to="/about-us" 
-              className={`px-2.5 py-1.5 text-[13px] xl:text-sm font-medium rounded-lg transition-colors whitespace-nowrap ${
-                location.pathname === '/about-us' ? 'text-emerald-700 font-semibold bg-emerald-50' : 'text-slate-700 hover:text-emerald-600 hover:bg-slate-50'
+              className={`px-3 py-2 text-[13px] xl:text-sm font-medium rounded-lg transition-colors whitespace-nowrap ${
+                location.pathname === '/about-us' ? 'text-emerald-600 font-semibold' : 'text-slate-700 hover:text-emerald-600 hover:bg-slate-50'
               }`}
             >
               About Us
@@ -268,8 +294,8 @@ export const Navbar: React.FC = () => {
             {/* Contact */}
             <Link 
               to="/contact" 
-              className={`px-2.5 py-1.5 text-[13px] xl:text-sm font-medium rounded-lg transition-colors whitespace-nowrap ${
-                location.pathname === '/contact' ? 'text-emerald-700 font-semibold bg-emerald-50' : 'text-slate-700 hover:text-emerald-600 hover:bg-slate-50'
+              className={`px-3 py-2 text-[13px] xl:text-sm font-medium rounded-lg transition-colors whitespace-nowrap ${
+                location.pathname === '/contact' ? 'text-emerald-600 font-semibold' : 'text-slate-700 hover:text-emerald-600 hover:bg-slate-50'
               }`}
             >
               Contact
