@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { PageHeader } from '@/components/common/PageHeader';
+import { SEO } from '@/components/common/SEO';
 import { FEATURED_DEVICES, DEVICE_MANUFACTURERS, DeviceItem } from '@/data/devices';
 import { ZASCO_CONTACT, getWhatsAppUrl } from '@/lib/crm';
 import { 
@@ -11,12 +12,14 @@ import {
   Radio
 } from 'lucide-react';
 import { LeadCaptureModal } from '@/components/common/LeadCaptureModal';
+import { DeviceConfigModal } from '@/components/devices/DeviceConfigModal';
 
 export const SupportedDevicesPage: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
   const [selectedManufacturer, setSelectedManufacturer] = useState<string>('All');
   const [leadModalOpen, setLeadModalOpen] = useState(false);
+  const [configModalOpen, setConfigModalOpen] = useState(false);
   const [activeDevice, setActiveDevice] = useState<DeviceItem | null>(null);
 
   const categories = ['All', 'AIS-140', 'Fuel & Sensor', '4G Wire-In', 'OBD-II', 'Magnetic & Portable', 'Asset & Personal'];
@@ -38,11 +41,16 @@ export const SupportedDevicesPage: React.FC = () => {
 
   const handleRequestConfig = (device: DeviceItem) => {
     setActiveDevice(device);
-    setLeadModalOpen(true);
+    setConfigModalOpen(true);
   };
 
   return (
     <div className="bg-white">
+      <SEO 
+        title="Supported GPS Devices & Protocols (650+ Models)"
+        description="Search 650+ pre-integrated GPS trackers, telematics protocols, server ports, and SMS configuration commands on ZASCO GPS."
+        path="/supported-devices"
+      />
       <PageHeader
         title="Supported GPS Devices & Telematics Protocols"
         badge="650+ Pre-Integrated Terminals"
@@ -228,19 +236,19 @@ export const SupportedDevicesPage: React.FC = () => {
                   {/* Actions */}
                   <div className="mt-6 pt-4 border-t border-slate-100 flex items-center gap-2">
                     <a
-                      href={ZASCO_CONTACT.shopUrl}
+                      href={`${ZASCO_CONTACT.shopUrl}?search=${encodeURIComponent(device.name)}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex-1 inline-flex items-center justify-center space-x-1.5 py-2.5 px-3 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl text-xs font-bold transition shadow"
                     >
                       <ShoppingCart className="w-3.5 h-3.5" />
-                      <span>BUY NOW</span>
+                      <span>Buy Hardware</span>
                     </a>
                     <button
                       onClick={() => handleRequestConfig(device)}
                       className="px-3 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl text-xs font-semibold transition"
                     >
-                      Server Setup
+                      SMS & Port Setup
                     </button>
                   </div>
                 </div>
@@ -266,6 +274,13 @@ export const SupportedDevicesPage: React.FC = () => {
           )}
         </div>
       </section>
+
+      {/* Device SMS & Port Config Cheat Sheet Modal */}
+      <DeviceConfigModal
+        isOpen={configModalOpen}
+        onClose={() => setConfigModalOpen(false)}
+        device={activeDevice}
+      />
 
       <LeadCaptureModal
         isOpen={leadModalOpen}

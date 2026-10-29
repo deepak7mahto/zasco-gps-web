@@ -69,3 +69,37 @@ export function getWhatsAppUrl(text?: string, phone = ZASCO_CONTACT.salesPhoneRa
   const encoded = encodeURIComponent(text || defaultText);
   return `https://wa.me/${phone}?text=${encoded}`;
 }
+
+export function getContextualWhatsAppUrl(pathname: string = typeof window !== 'undefined' ? window.location.pathname : '/'): string {
+  let message = 'Hi ZASCO GPS, I am interested in your GPS vehicle tracking solutions. Please share pricing and catalog.';
+  
+  if (pathname.includes('/school-bus')) {
+    message = 'Hi ZASCO GPS, I need a quote for School Bus GPS Tracking & Student RFID Attendance system.';
+  } else if (pathname.includes('/employee')) {
+    message = 'Hi ZASCO GPS, I would like to inquire about Employee Transport & Corporate Cab Management software.';
+  } else if (pathname.includes('/fuel')) {
+    message = 'Hi ZASCO GPS, I want to inquire about High-Precision Fuel Sensors & Theft Drain SMS alarms.';
+  } else if (pathname.includes('/temperature')) {
+    message = 'Hi ZASCO GPS, I need Cold Chain Temperature Monitoring & BLE Telemetry Probes for my vehicles.';
+  } else if (pathname.includes('/route')) {
+    message = 'Hi ZASCO GPS, I would like to inquire about Route Optimization & Multi-Stop Dispatch software.';
+  } else if (pathname.includes('/sensor')) {
+    message = 'Hi ZASCO GPS, I need custom Sensor Telemetry (PTO, AC, Door Sensor, Cement Mixer) for my machines.';
+  } else if (pathname.includes('/analytics')) {
+    message = 'Hi ZASCO GPS, I want to explore Fleet Analytics, Idling Reduction & Driver Scorecards.';
+  } else if (pathname.includes('/white-label')) {
+    message = 'Hi ZASCO GPS, I want details on starting a White Label GPS Tracking Business with branded apps.';
+  } else if (pathname.includes('/distribution')) {
+    message = 'Hi ZASCO GPS, I would like to apply for the ZASCO GPS Dealership & Wholesale Distribution tier.';
+  } else if (pathname.includes('/franchising')) {
+    message = 'Hi ZASCO GPS, I am interested in opening a ZASCO GPS City/State Franchise showroom.';
+  } else if (pathname.includes('/supported-devices')) {
+    message = 'Hi ZASCO GPS, I need hardware prices and bulk procurement for GPS tracker devices.';
+  } else if (pathname.includes('/software')) {
+    message = 'Hi ZASCO GPS, I want to schedule a live software demo for the ZASCO Fleet Platform & Mobile App.';
+  } else if (pathname.includes('/contact')) {
+    message = 'Hi ZASCO GPS, I am contacting you from the website contact page for business inquiry.';
+  }
+  
+  return getWhatsAppUrl(message);
+}

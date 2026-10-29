@@ -1,9 +1,11 @@
 import React from 'react';
 import { useParams, Navigate } from 'react-router-dom';
+import { SEO } from '@/components/common/SEO';
 import { PageHeader } from '@/components/common/PageHeader';
 import { QuickInquiryForm } from '@/components/common/QuickInquiryForm';
+import { FleetRoiCalculator } from '@/components/common/FleetRoiCalculator';
 import { SOLUTIONS_DATA, SolutionDetail } from '@/data/solutions';
-import { ZASCO_CONTACT, getWhatsAppUrl } from '@/lib/crm';
+import { ZASCO_CONTACT, getWhatsAppUrl, getContextualWhatsAppUrl } from '@/lib/crm';
 import { 
   Bus, 
   Users, 
@@ -47,6 +49,12 @@ export const SolutionTemplatePage: React.FC<SolutionPageProps> = ({ forcedSlug }
 
   return (
     <div className="bg-white">
+      <SEO 
+        title={data.title} 
+        description={data.subtitle} 
+        path={data.route} 
+        image={data.heroImage} 
+      />
       <PageHeader
         title={data.title}
         badge={data.badge}
@@ -56,15 +64,24 @@ export const SolutionTemplatePage: React.FC<SolutionPageProps> = ({ forcedSlug }
           { label: data.title },
         ]}
         actions={
-          <div className="flex items-center space-x-3">
+          <div className="flex flex-wrap items-center gap-3">
             <a
               href={ZASCO_CONTACT.shopUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center space-x-2 px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs shadow transition"
+              className="inline-flex items-center space-x-2 px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs shadow transition whitespace-nowrap"
             >
               <ShoppingCart className="w-4 h-4" />
               <span>Buy Hardware for {data.title}</span>
+            </a>
+            <a
+              href={getContextualWhatsAppUrl(data.route)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center space-x-2 px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-emerald-400 font-bold text-xs border border-slate-700 transition whitespace-nowrap"
+            >
+              <MessageSquare className="w-4 h-4" />
+              <span>Inquire on WhatsApp</span>
             </a>
           </div>
         }
@@ -216,6 +233,15 @@ export const SolutionTemplatePage: React.FC<SolutionPageProps> = ({ forcedSlug }
           </div>
         </div>
       </section>
+
+      {/* Interactive Fleet ROI Calculator for Operational / Fleet Solutions */}
+      {['fuel', 'analytics', 'route', 'sensor'].includes(slug) && (
+        <section className="py-16 bg-slate-900 border-b border-slate-800">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <FleetRoiCalculator sourceContext={`Solution: ${data.title}`} />
+          </div>
+        </section>
+      )}
 
       {/* Target Industries Served */}
       <section className="py-16 bg-slate-50 border-b border-slate-200">

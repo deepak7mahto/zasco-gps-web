@@ -20,7 +20,7 @@ import {
   ExternalLink,
   ArrowRight
 } from 'lucide-react';
-import { ZASCO_CONTACT, getWhatsAppUrl } from '@/lib/crm';
+import { ZASCO_CONTACT, getContextualWhatsAppUrl } from '@/lib/crm';
 import { SOLUTIONS_NAV, BUSINESS_MODEL_NAV } from '@/data/navigation';
 import { LeadCaptureModal } from '@/components/common/LeadCaptureModal';
 
@@ -306,7 +306,7 @@ export const Navbar: React.FC = () => {
           <div className="hidden lg:flex items-center space-x-2 xl:space-x-3 shrink-0">
             {/* WhatsApp Direct Chat */}
             <a
-              href={getWhatsAppUrl()}
+              href={getContextualWhatsAppUrl(location.pathname)}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg text-emerald-700 bg-emerald-50 hover:bg-emerald-100 text-xs font-semibold border border-emerald-200/80 whitespace-nowrap transition"
@@ -437,7 +437,7 @@ export const Navbar: React.FC = () => {
               </a>
 
               <a
-                href={getWhatsAppUrl()}
+                href={getContextualWhatsAppUrl(location.pathname)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full flex items-center justify-center space-x-2 px-4 py-3 rounded-xl bg-emerald-50 border border-emerald-300 text-emerald-800 font-bold text-base"

@@ -6,6 +6,7 @@ import { SolutionsOverview } from '@/components/home/SolutionsOverview';
 import { HardwareShowcase } from '@/components/home/HardwareShowcase';
 import { TrustPartners } from '@/components/home/TrustPartners';
 import { QuickInquiryForm } from '@/components/common/QuickInquiryForm';
+import { FleetRoiCalculator } from '@/components/common/FleetRoiCalculator';
 import { ShieldCheck, Award, Zap, PhoneCall, Headphones } from 'lucide-react';
 import { ZASCO_CONTACT, getWhatsAppUrl } from '@/lib/crm';
 
@@ -24,13 +25,20 @@ export const HomePage: React.FC = () => {
       {/* 4. Solutions Grid (All 7 Verticals) */}
       <SolutionsOverview />
 
-      {/* 5. Hardware Showcase (ZT-22, Teltonika, Concox, AIS-140) */}
+      {/* 5. Interactive Fleet ROI & Fuel Savings Calculator */}
+      <section className="py-16 bg-slate-50 border-y border-slate-200/80">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <FleetRoiCalculator />
+        </div>
+      </section>
+
+      {/* 6. Hardware Showcase (ZT-22, Teltonika, Concox, AIS-140) */}
       <HardwareShowcase />
 
-      {/* 6. Manufacturer & Vehicle Compatibility Bar */}
+      {/* 7. Manufacturer & Vehicle Compatibility Bar */}
       <TrustPartners />
 
-      {/* 7. Why ZASCO Enterprise Advantage Section */}
+      {/* 8. Why ZASCO Enterprise Advantage Section */}
       <section className="py-20 bg-slate-900 text-white relative overflow-hidden">
         <div 
           className="absolute inset-0 opacity-10 bg-repeat pointer-events-none" 
