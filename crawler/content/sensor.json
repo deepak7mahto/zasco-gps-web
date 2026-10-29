@@ -1,0 +1,134 @@
+{
+  "slug": "sensor",
+  "url": "https://zascogps.com/sensor/",
+  "title": "SENSOR – ZASCO GPS",
+  "status": 200,
+  "screenshot": "sensor.png",
+  "meta": {
+    "description": ""
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "SENSOR"
+    },
+    {
+      "tag": "h4",
+      "text": "SALIENT BENEFITS"
+    },
+    {
+      "tag": "h3",
+      "text": ""
+    },
+    {
+      "tag": "h4",
+      "text": "Recent Posts"
+    },
+    {
+      "tag": "h4",
+      "text": "Company Legal Name"
+    },
+    {
+      "tag": "h1",
+      "text": "E TRENDZ INDIA"
+    },
+    {
+      "tag": "h1",
+      "text": "GSTIN : 07CNSPS4538N1ZY"
+    }
+  ],
+  "images": [
+    {
+      "original_src": "https://zascogps.com/wp-content/uploads/2016/06/logo.png",
+      "local_file": "logo.png",
+      "alt": "logo"
+    },
+    {
+      "original_src": "https://zascogps.com/wp-content/uploads/2016/06/logo.png",
+      "local_file": "logo.png",
+      "alt": "dark logo"
+    },
+    {
+      "original_src": "https://zascogps.com/wp-content/uploads/2016/06/logo.png",
+      "local_file": "logo.png",
+      "alt": "light logo"
+    },
+    {
+      "original_src": "https://zascogps.com/wp-content/uploads/2016/06/logo.png",
+      "local_file": "logo.png",
+      "alt": "logo"
+    },
+    {
+      "original_src": "https://zascogps.com/wp-content/uploads/2016/06/logo.png",
+      "local_file": "logo.png",
+      "alt": "dark logo"
+    },
+    {
+      "original_src": "https://zascogps.com/wp-content/uploads/2016/06/logo.png",
+      "local_file": "logo.png",
+      "alt": "light logo"
+    },
+    {
+      "original_src": "https://zascogps.com/wp-content/uploads/2016/06/logo.png",
+      "local_file": "logo.png",
+      "alt": "mobile-logo"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2017/03/sensor-banner-300x126.jpg",
+      "local_file": "sensor-banner-300x126.jpg",
+      "alt": ""
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2016/06/logo.png",
+      "local_file": "logo_1.png",
+      "alt": "Zascogps"
+    }
+  ],
+  "paragraphs": [
+    "BUSINESS MODEL",
+    "SUPPORTED DEVICES",
+    "BUSINESS MODEL",
+    "SUPPORTED DEVICES",
+    "BUSINESS MODEL\n\n\tDISTRIBUTION\n\tWHITE LABEL\n\tZASCO FRANCHISING",
+    "DISTRIBUTION",
+    "WHITE LABEL",
+    "ZASCO FRANCHISING",
+    "SUPPORTED DEVICES",
+    "MORE\n\n\tSOFTWARE\n\tTRACKING\n\tCONTACT US\n\tBUY NOW",
+    "SOLUTION\n\n\tSCHOOL TRACKING MANAGEMENT\n\tEMPLOYEE MANAGEMENT\n\tLOCATION BASED ANALYTICS",
+    "SCHOOL TRACKING MANAGEMENT",
+    "EMPLOYEE MANAGEMENT",
+    "LOCATION BASED ANALYTICS",
+    "MODULES\n\n\tROUTE\n\tTEMPERATURE\n\tSENSOR\n\tABOUT US\n\tFUEL",
+    "TEMPERATURE",
+    "In today’s time where a huge number of devices are involved in every process, monitoring each and every one might become a bit cumbersome. Sensors are installed on these devices such as AC, engine, generators, etc to monitor their usage and improve upon their efficiency. Data received from these sensors is then translated into a user friendly format.",
+    "Some of many Applications include:",
+    "Car Rental Services: Cab owners can keep an eye on the usage of AC and even get alerts for unauthorized usage.",
+    "Utilities: Owners can watch the onsite generators’ fuel consumption and collate it with the output of generator.",
+    "Heavy Equipment: Number of total working hours for machines such as tractors and generator, JCB can be determined.",
+    "Cement Solutions: Total rotations made by cement mixers in a given period can be checked out.",
+    "View the device status (eg AC is ON or OFF)",
+    "Comparison feature wherein the output of special machines such as JCB, excavators can be contrasted.",
+    "History tracking of the status of a device",
+    "Reports depicting things like status, usage of the device",
+    "Alerts that aid you to stop illicit usage",
+    "Switch off vehicle engine (for specific tracker models only)",
+    "Reduced operating costs",
+    "Improved financial payback",
+    "1st floor, 47, Pocket 10, Sector 20, Rohini, New Delhi, Delhi 110086, INDIA",
+    "Email: Info@zascogps.com",
+    "Email: zascogps@gmail.com",
+    "Phone: +91- 9868090012",
+    "Phone: +91- 8642989898",
+    "Phone: +91- 8686864260",
+    "Return And Refund Policy",
+    "Privacy And Policy",
+    "Terms And Conditions",
+    "How To Setup Activate BITREK Tracker on Zasco Gps Server – BITREK May 13, 2021",
+    "How To Setup Activate Benway Tracker on Zasco Gps Server – Benway May 13, 2021",
+    "How To Setup Activate BCE (now Xirgo Global) Tracker on Zasco Gps Server – BCE (now Xirgo Global) May 12, 2021",
+    "How To Setup / Activate Autofone Tracker on Zasco Gps Server – AutoFon May 12, 2021",
+    "How To Setup / Activate Sinotrack / Auto Leaders Tracker on Zasco Gps Server – Sinotrack May 12, 2021",
+    "Copyright © 2021-2025 | Zasco Gps"
+  ]
+}

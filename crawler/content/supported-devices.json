@@ -1,0 +1,443 @@
+{
+  "slug": "supported-devices",
+  "url": "https://zascogps.com/?page_id=3976",
+  "title": "Supported Devices – ZASCO GPS",
+  "status": 200,
+  "screenshot": "supported-devices.png",
+  "meta": {
+    "description": ""
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Supported Devices"
+    },
+    {
+      "tag": "h2",
+      "text": "More Than 650 Supported Devices From Leading Manufacturer."
+    },
+    {
+      "tag": "h1",
+      "text": "Got your own device?"
+    },
+    {
+      "tag": "h2",
+      "text": "Supported Devices"
+    },
+    {
+      "tag": "h4",
+      "text": "Recent Posts"
+    },
+    {
+      "tag": "h4",
+      "text": "Company Legal Name"
+    },
+    {
+      "tag": "h1",
+      "text": "E TRENDZ INDIA"
+    },
+    {
+      "tag": "h1",
+      "text": "GSTIN : 07CNSPS4538N1ZY"
+    }
+  ],
+  "images": [
+    {
+      "original_src": "https://zascogps.com/wp-content/uploads/2016/06/logo.png",
+      "local_file": "logo.png",
+      "alt": "logo"
+    },
+    {
+      "original_src": "https://zascogps.com/wp-content/uploads/2016/06/logo.png",
+      "local_file": "logo.png",
+      "alt": "dark logo"
+    },
+    {
+      "original_src": "https://zascogps.com/wp-content/uploads/2016/06/logo.png",
+      "local_file": "logo.png",
+      "alt": "light logo"
+    },
+    {
+      "original_src": "https://zascogps.com/wp-content/uploads/2016/06/logo.png",
+      "local_file": "logo.png",
+      "alt": "logo"
+    },
+    {
+      "original_src": "https://zascogps.com/wp-content/uploads/2016/06/logo.png",
+      "local_file": "logo.png",
+      "alt": "dark logo"
+    },
+    {
+      "original_src": "https://zascogps.com/wp-content/uploads/2016/06/logo.png",
+      "local_file": "logo.png",
+      "alt": "light logo"
+    },
+    {
+      "original_src": "https://zascogps.com/wp-content/uploads/2016/06/logo.png",
+      "local_file": "logo.png",
+      "alt": "mobile-logo"
+    },
+    {
+      "original_src": "https://zascogps.com/wp-content/uploads/2018/03/SUPPORT-PAGE-BANNER.jpg",
+      "local_file": "SUPPORT-PAGE-BANNER.jpg",
+      "alt": ""
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/AGPS.jpg",
+      "local_file": "AGPS.jpg",
+      "alt": "AGPS"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/aplicom.jpg",
+      "local_file": "aplicom.jpg",
+      "alt": "aplicom"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/atrack.png",
+      "local_file": "atrack.png",
+      "alt": "atrack"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/bitrek.jpg",
+      "local_file": "bitrek.jpg",
+      "alt": "bitrek"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/bofan.png",
+      "local_file": "bofan.png",
+      "alt": "bofan"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/c2stek.jpg",
+      "local_file": "c2stek.jpg",
+      "alt": "c2stek"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/calamp.png",
+      "local_file": "calamp.png",
+      "alt": "calamp"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/COBAN.jpg",
+      "local_file": "COBAN.jpg",
+      "alt": "COBAN"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/concox-1.jpg",
+      "local_file": "concox-1.jpg",
+      "alt": "concox"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/dct.png",
+      "local_file": "dct.png",
+      "alt": "dct"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/eelink.jpg",
+      "local_file": "eelink.jpg",
+      "alt": "eelink"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/falcom.png",
+      "local_file": "falcom.png",
+      "alt": "falcom"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/fifotrack.jpg",
+      "local_file": "fifotrack.jpg",
+      "alt": "fifotrack"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/galilio-sky.jpg",
+      "local_file": "galilio-sky.jpg",
+      "alt": "galilio-sky"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/globalsat.jpg",
+      "local_file": "globalsat.jpg",
+      "alt": "globalsat"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/gosafe.jpg",
+      "local_file": "gosafe.jpg",
+      "alt": "gosafe"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/images.png",
+      "local_file": "images.png",
+      "alt": "images"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/index.png",
+      "local_file": "index.png",
+      "alt": "index"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/i-trac.jpg",
+      "local_file": "i-trac.jpg",
+      "alt": "i-trac"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/Meitrack-Logo-Standard.png",
+      "local_file": "Meitrack-Logo-Standard.png",
+      "alt": "Meitrack-Logo-Standard"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/ruptela.png",
+      "local_file": "ruptela.png",
+      "alt": "ruptela"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/sinotrack.jpg",
+      "local_file": "sinotrack.jpg",
+      "alt": "sinotrack"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/SOFWERE.jpg",
+      "local_file": "SOFWERE.jpg",
+      "alt": "SOFWERE"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/TELTONICA.png",
+      "local_file": "TELTONICA.png",
+      "alt": "TELTONICA"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/tkstar.jpg",
+      "local_file": "tkstar.jpg",
+      "alt": "tkstar"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/tomtom.png",
+      "local_file": "tomtom.png",
+      "alt": "tomtom"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/ulbotech.png",
+      "local_file": "ulbotech.png",
+      "alt": "ulbotech"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/Xexun.jpg",
+      "local_file": "Xexun.jpg",
+      "alt": "Xexun"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/zanda-gps.png",
+      "local_file": "zanda-gps.png",
+      "alt": "zanda-gps"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/AGPS.jpg",
+      "local_file": "AGPS.jpg",
+      "alt": "AGPS"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/aplicom.jpg",
+      "local_file": "aplicom.jpg",
+      "alt": "aplicom"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/atrack.png",
+      "local_file": "atrack.png",
+      "alt": "atrack"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/bitrek.jpg",
+      "local_file": "bitrek.jpg",
+      "alt": "bitrek"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/bofan.png",
+      "local_file": "bofan.png",
+      "alt": "bofan"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/c2stek.jpg",
+      "local_file": "c2stek.jpg",
+      "alt": "c2stek"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/calamp.png",
+      "local_file": "calamp.png",
+      "alt": "calamp"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/COBAN.jpg",
+      "local_file": "COBAN.jpg",
+      "alt": "COBAN"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/concox-1.jpg",
+      "local_file": "concox-1.jpg",
+      "alt": "concox"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/dct.png",
+      "local_file": "dct.png",
+      "alt": "dct"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/eelink.jpg",
+      "local_file": "eelink.jpg",
+      "alt": "eelink"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/falcom.png",
+      "local_file": "falcom.png",
+      "alt": "falcom"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/fifotrack.jpg",
+      "local_file": "fifotrack.jpg",
+      "alt": "fifotrack"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/galilio-sky.jpg",
+      "local_file": "galilio-sky.jpg",
+      "alt": "galilio-sky"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/globalsat.jpg",
+      "local_file": "globalsat.jpg",
+      "alt": "globalsat"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/gosafe.jpg",
+      "local_file": "gosafe.jpg",
+      "alt": "gosafe"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/images.png",
+      "local_file": "images.png",
+      "alt": "images"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/index.png",
+      "local_file": "index.png",
+      "alt": "index"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/i-trac.jpg",
+      "local_file": "i-trac.jpg",
+      "alt": "i-trac"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/Meitrack-Logo-Standard.png",
+      "local_file": "Meitrack-Logo-Standard.png",
+      "alt": "Meitrack-Logo-Standard"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/ruptela.png",
+      "local_file": "ruptela.png",
+      "alt": "ruptela"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/sinotrack.jpg",
+      "local_file": "sinotrack.jpg",
+      "alt": "sinotrack"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/SOFWERE.jpg",
+      "local_file": "SOFWERE.jpg",
+      "alt": "SOFWERE"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/TELTONICA.png",
+      "local_file": "TELTONICA.png",
+      "alt": "TELTONICA"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/tkstar.jpg",
+      "local_file": "tkstar.jpg",
+      "alt": "tkstar"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/tomtom.png",
+      "local_file": "tomtom.png",
+      "alt": "tomtom"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/ulbotech.png",
+      "local_file": "ulbotech.png",
+      "alt": "ulbotech"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/Xexun.jpg",
+      "local_file": "Xexun.jpg",
+      "alt": "Xexun"
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2018/03/zanda-gps.png",
+      "local_file": "zanda-gps.png",
+      "alt": "zanda-gps"
+    },
+    {
+      "original_src": "https://zascogps.com/wp-content/uploads/2018/03/AGPS-010.jpg",
+      "local_file": "AGPS-010.jpg",
+      "alt": ""
+    },
+    {
+      "original_src": "https://zascogps.com/wp-content/uploads/2018/03/AGPS-020.jpg",
+      "local_file": "AGPS-020.jpg",
+      "alt": ""
+    },
+    {
+      "original_src": "https://zascogps.com/wp-content/uploads/2018/03/AMT.jpg",
+      "local_file": "AMT.jpg",
+      "alt": ""
+    },
+    {
+      "original_src": "https://zascogps.com/wp-content/uploads/2018/03/AMT-MT815.jpg",
+      "local_file": "AMT-MT815.jpg",
+      "alt": ""
+    },
+    {
+      "original_src": "https://zascogps.com/wp-content/uploads/2018/03/AMT-MT365.jpg",
+      "local_file": "AMT-MT365.jpg",
+      "alt": ""
+    },
+    {
+      "original_src": "http://zascogps.com/wp-content/uploads/2016/06/logo.png",
+      "local_file": "logo_1.png",
+      "alt": "Zascogps"
+    }
+  ],
+  "paragraphs": [
+    "BUSINESS MODEL",
+    "SUPPORTED DEVICES",
+    "BUSINESS MODEL",
+    "SUPPORTED DEVICES",
+    "BUSINESS MODEL\n\n\tDISTRIBUTION\n\tWHITE LABEL\n\tZASCO FRANCHISING",
+    "DISTRIBUTION",
+    "WHITE LABEL",
+    "ZASCO FRANCHISING",
+    "SUPPORTED DEVICES",
+    "MORE\n\n\tSOFTWARE\n\tTRACKING\n\tCONTACT US\n\tBUY NOW",
+    "SOLUTION\n\n\tSCHOOL TRACKING MANAGEMENT\n\tEMPLOYEE MANAGEMENT\n\tLOCATION BASED ANALYTICS",
+    "SCHOOL TRACKING MANAGEMENT",
+    "EMPLOYEE MANAGEMENT",
+    "LOCATION BASED ANALYTICS",
+    "MODULES\n\n\tROUTE\n\tTEMPERATURE\n\tSENSOR\n\tABOUT US\n\tFUEL",
+    "TEMPERATURE",
+    "Run it on our server and use all the features of the tracking platform as well as our mobile apps.",
+    "Our system is designed to communicate with a wide variety of GPS devices, so you have the flexibility to use any hardware you choose. There is a lot of confusion about GPS device models, some of them may look the same, but use other TCP/IP or UDP communication protocols. If you can’t get your device to work using below provided details or can’t find it in the list, contact us and share your device’s TCP/IP or UDP communication protocol documentation and we will be able to help you.",
+    "Current page\n1",
+    "Current page\n1",
+    "1st floor, 47, Pocket 10, Sector 20, Rohini, New Delhi, Delhi 110086, INDIA",
+    "Email: Info@zascogps.com",
+    "Email: zascogps@gmail.com",
+    "Phone: +91- 9868090012",
+    "Phone: +91- 8642989898",
+    "Phone: +91- 8686864260",
+    "Return And Refund Policy",
+    "Privacy And Policy",
+    "Terms And Conditions",
+    "How To Setup Activate BITREK Tracker on Zasco Gps Server – BITREK May 13, 2021",
+    "How To Setup Activate Benway Tracker on Zasco Gps Server – Benway May 13, 2021",
+    "How To Setup Activate BCE (now Xirgo Global) Tracker on Zasco Gps Server – BCE (now Xirgo Global) May 12, 2021",
+    "How To Setup / Activate Autofone Tracker on Zasco Gps Server – AutoFon May 12, 2021",
+    "How To Setup / Activate Sinotrack / Auto Leaders Tracker on Zasco Gps Server – Sinotrack May 12, 2021",
+    "Copyright © 2021-2025 | Zasco Gps"
+  ]
+}

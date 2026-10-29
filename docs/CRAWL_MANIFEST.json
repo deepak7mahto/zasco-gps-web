@@ -1,0 +1,167 @@
+{
+  "crawl_timestamp": "2026-10-29",
+  "total_pages": 20,
+  "total_assets_downloaded": 103,
+  "pages": [
+    {
+      "slug": "home",
+      "title": "ZASCO GPS \u2013 No. 1-Vehicle Tracking Software | GPS System and Providers in Delhi NCR, UP, Haryana, Jaipur Bangalore(india)",
+      "url": "https://zascogps.com/",
+      "screenshot": "home.png",
+      "text_block_count": 48,
+      "image_count": 25
+    },
+    {
+      "slug": "business-model",
+      "title": "Business Model \u2013 ZASCO GPS",
+      "url": "https://zascogps.com/business-model/",
+      "screenshot": "business-model.png",
+      "text_block_count": 75,
+      "image_count": 18
+    },
+    {
+      "slug": "distribution",
+      "title": "Distribution \u2013 ZASCO GPS",
+      "url": "https://zascogps.com/distribution/",
+      "screenshot": "distribution.png",
+      "text_block_count": 70,
+      "image_count": 11
+    },
+    {
+      "slug": "white-label",
+      "title": "White Label \u2013 ZASCO GPS",
+      "url": "https://zascogps.com/white-label/",
+      "screenshot": "white-label.png",
+      "text_block_count": 70,
+      "image_count": 11
+    },
+    {
+      "slug": "zasco-franchising",
+      "title": "ZascoFranchising \u2013 ZASCO GPS",
+      "url": "https://zascogps.com/zasco-franchising/",
+      "screenshot": "zasco-franchising.png",
+      "text_block_count": 78,
+      "image_count": 16
+    },
+    {
+      "slug": "supported-devices",
+      "title": "Supported Devices \u2013 ZASCO GPS",
+      "url": "https://zascogps.com/?page_id=3976",
+      "screenshot": "supported-devices.png",
+      "text_block_count": 35,
+      "image_count": 72
+    },
+    {
+      "slug": "software",
+      "title": "Software \u2013 ZASCO GPS",
+      "url": "https://zascogps.com/software/",
+      "screenshot": "software.png",
+      "text_block_count": 44,
+      "image_count": 8
+    },
+    {
+      "slug": "solutions",
+      "title": "SOLUTION \u2013 ZASCO GPS",
+      "url": "https://zascogps.com/solution-2/",
+      "screenshot": "solutions.png",
+      "text_block_count": 31,
+      "image_count": 8
+    },
+    {
+      "slug": "school-tracking",
+      "title": "SCHOOL TRACKING MANAGEMENT \u2013 ZASCO GPS",
+      "url": "https://zascogps.com/school-tracking-management/",
+      "screenshot": "school-tracking.png",
+      "text_block_count": 48,
+      "image_count": 9
+    },
+    {
+      "slug": "employee-management",
+      "title": "EMPLOYEE MANAGEMENT \u2013 ZASCO GPS",
+      "url": "https://zascogps.com/employee-management-2/",
+      "screenshot": "employee-management.png",
+      "text_block_count": 59,
+      "image_count": 10
+    },
+    {
+      "slug": "location-analytics",
+      "title": "LOCATION BASED ANALYTICS \u2013 ZASCO GPS",
+      "url": "https://zascogps.com/location-based-analytics/",
+      "screenshot": "location-analytics.png",
+      "text_block_count": 58,
+      "image_count": 10
+    },
+    {
+      "slug": "route",
+      "title": "ROUTE \u2013 ZASCO GPS",
+      "url": "https://zascogps.com/route-2/",
+      "screenshot": "route.png",
+      "text_block_count": 49,
+      "image_count": 9
+    },
+    {
+      "slug": "temperature",
+      "title": "TEMPRATURE \u2013 ZASCO GPS",
+      "url": "https://zascogps.com/temperature-2/",
+      "screenshot": "temperature.png",
+      "text_block_count": 53,
+      "image_count": 9
+    },
+    {
+      "slug": "sensor",
+      "title": "SENSOR \u2013 ZASCO GPS",
+      "url": "https://zascogps.com/sensor/",
+      "screenshot": "sensor.png",
+      "text_block_count": 45,
+      "image_count": 9
+    },
+    {
+      "slug": "fuel",
+      "title": "Fuel \u2013 ZASCO GPS",
+      "url": "https://zascogps.com/fuel-2/",
+      "screenshot": "fuel.png",
+      "text_block_count": 48,
+      "image_count": 14
+    },
+    {
+      "slug": "about-us",
+      "title": "About Us \u2013 ZASCO GPS",
+      "url": "https://zascogps.com/about-us/",
+      "screenshot": "about-us.png",
+      "text_block_count": 37,
+      "image_count": 23
+    },
+    {
+      "slug": "contact",
+      "title": "Contact Us \u2013 ZASCO GPS",
+      "url": "https://zascogps.com/contact/",
+      "screenshot": "contact.png",
+      "text_block_count": 34,
+      "image_count": 9
+    },
+    {
+      "slug": "privacy-policy",
+      "title": "privacy and policy \u2013 ZASCO GPS",
+      "url": "https://zascogps.com/privacy-and-policy/",
+      "screenshot": "privacy-policy.png",
+      "text_block_count": 43,
+      "image_count": 8
+    },
+    {
+      "slug": "terms-and-conditions",
+      "title": "Terms-and-Conditions \u2013 ZASCO GPS",
+      "url": "https://zascogps.com/terms-and-conditions/",
+      "screenshot": "terms-and-conditions.png",
+      "text_block_count": 53,
+      "image_count": 8
+    },
+    {
+      "slug": "return-refund",
+      "title": "Return And Refund Policy \u2013 ZASCO GPS",
+      "url": "https://zascogps.com/return-and-refund-policy/",
+      "screenshot": "return-refund.png",
+      "text_block_count": 39,
+      "image_count": 8
+    }
+  ]
+}
